@@ -6,21 +6,21 @@ This project contains implementations of various machine learning models, focusi
 
 ## Project Structure
 
-### 5. **`linearRegression.ipynb`**
+### 1. **[linearRegression.ipynb](linearRegression.ipynb)**
    - **Description:** Implements Linear Regression.  
    - **Key Features:**
-     * Uses `sklearn.linear_model.LinearRegression` to model linear relationships. 
+     * Uses [sklearn.linear_model.LinearRegression](https://scikit-learn.org/1.5/modules/generated/sklearn.linear_model.LinearRegression.html) to model linear relationships. 
      * Evaluates performance using R-squared and Mean Squared Error. 
 * **Use Case:** Best for regression tasks with linear relationships between variables.”
 
-### 5. **`logisticRegression.ipynb`**
+### 2. **[logisticRegression.ipynb](logisticRegression.ipynb)**
    - **Description:** Implements Logistic Regression.  
    - **Key Features:**
      * Uses `sklearn.linear_model.LogisticRegression` for binary classification. 
      * Includes methods for model evaluation such as accuracy, confusion matrix, and ROC curve. 
 * **Use Case:** Ideal for classification tasks, especially binary classification (e.g., spam detection, disease prediction).
 
-### 1. **`decisiontree.ipynb`**
+### 3. **[decisiontree.ipynb](decisiontree.ipynb)**
    - **Description:** Implements Decision Tree Classification.
    - **Key Features:**
      - Uses `sklearn.tree.DecisionTreeClassifier`.
@@ -28,21 +28,21 @@ This project contains implementations of various machine learning models, focusi
      - Includes methods for splitting datasets and visualizing results.
    - **Use Case:** Best suited for classification problems.
 
-### 2. **`lasso.ipynb`**
+### 4. **[lasso.ipynb](lasso.ipynb)**
    - **Description:** Demonstrates Lasso Regression.
    - **Key Features:**
      - Utilizes `sklearn.linear_model.Lasso` for regression with feature selection.
      - Evaluates model using metrics like R-squared and Mean Squared Error.
    - **Use Case:** Suitable for regression tasks requiring feature regularization.
 
-### 3. **`randomforest.ipynb`**
+### 5. **[randomforest.ipynb](randomforest.ipynb)**
    - **Description:** Implements Random Forest models.
    - **Key Features:**
      - Covers Random Forest Classification and Regression using `sklearn.ensemble`.
      - Works with synthetic datasets generated using `sklearn.datasets`.
    - **Use Case:** Ideal for both classification and regression problems requiring ensemble techniques.
 
-### 4. **`ridge.ipynb`**
+### 6. **[ridge.ipynb](ridge.ipynb)**
    - **Description:** Demonstrates Ridge Regression.
    - **Key Features:**
      - Uses `sklearn.linear_model.Ridge` for regression with L2 regularization.
@@ -65,7 +65,7 @@ This project contains implementations of various machine learning models, focusi
 ---
 
 ## Requirements
-To run the notebooks, ensure you have the required libraries installed. Refer to the `requirements.txt` file for the complete list:
+To run the notebooks, ensure you have the required libraries installed. Refer to the [requirements.txt](requirements.txt) file for the complete list:
 
 ``` bash
 scikit-learn numpy pandas matplotlib
